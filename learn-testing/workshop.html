@@ -41,6 +41,20 @@
       const expected2 = 0;
       equal(result2, expected2);
 
+      // Challenge 3
+
+      function notEqual(result1, result2) {
+        if (result1 !== result2) {
+          console.info(`${result2} is different to ${result1}`);
+        } else {
+          console.error(`${result2} is the same as ${result1}`);
+        }
+      }
+
+      const result3 = square(3);
+      const expected3 = 10;
+      notEqual(result3, expected3);
+      
     </script>
   </body>
 </html>
