@@ -25,6 +25,22 @@
         console.log(result);
       };
 
+      function equal (result1, result2) {
+        if (result1 === result2) {
+          console.info(`The output should be ${result1} and the final result is ${result2}`);
+        } else {
+          console.error(`The output should be ${result1} and the final result is ${result2}`)
+        }
+      }
+
+      const result1 = square(2);
+      const expected1 = 4;
+      equal(result1, expected1);
+
+      const result2 = square(3.5);
+      const expected2 = 0;
+      equal(result2, expected2);
+
     </script>
   </body>
 </html>
