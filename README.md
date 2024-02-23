@@ -1,2 +1,3 @@
-# JavaScript-Testing
-FAC JS Workshop
+Founders & Coders Javascript Workshop Challenges
+
+JavaScript Testing workshop complete!
