@@ -9,10 +9,22 @@
     <h1>Open the console</h1>
 
     <script>
+
       // the function we're testing
       function square(x) {
         return x * x;
       }
+
+      // Challenge 1
+      const result = square(2);
+      const wrongResult = 0;
+
+      if (result !== wrongResult) {
+        console.error(`The output is ${wrongResult} but the real result is ${result}`);
+      } else {
+        console.log(result);
+      };
+
     </script>
   </body>
 </html>
